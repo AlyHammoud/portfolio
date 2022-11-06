@@ -36,152 +36,88 @@
           slidesPerView: 7,
           spaceBetween: 50,
         },
-        // '1650': {
-        //   slidesPerView: 7,
-        //   spaceBetween: 50,
-        // },
       }"
       :modules="modules"
       class="custom-swiper"
     >
-      <swiper-slide
-        ><div class="card">
-          <img src="https://picsum.photos/200/200" />
+      <swiper-slide>
+        <div class="card">
+          <img src="~/assets/images/php.jpg" />
           <p>PHP</p>
-        </div></swiper-slide
-      >
-      <swiper-slide
-        ><div class="card">
-          <img src="https://picsum.photos/200/200" />
-          <p>PHP</p>
-        </div></swiper-slide
-      >
-      <swiper-slide
-        ><div class="card">
-          <img src="https://picsum.photos/200/200" />
-          <p>PHP</p>
-        </div></swiper-slide
-      >
-      <swiper-slide
-        ><div class="card">
-          <img src="https://picsum.photos/200/200" />
-          <p>PHP</p>
-        </div></swiper-slide
-      >
-      <swiper-slide
-        ><div class="card">
-          <img src="https://picsum.photos/200/200" />
-          <p>PHP</p>
-        </div></swiper-slide
-      >
-      <swiper-slide
-        ><div class="card">
-          <img src="https://picsum.photos/200/200" />
-          <p>PHP</p>
-        </div></swiper-slide
-      >
-      <swiper-slide
-        ><div class="card">
-          <img src="https://picsum.photos/200/200" />
-          <p>PHP</p>
-        </div></swiper-slide
-      >
-      <swiper-slide
-        ><div class="card">
-          <img src="https://picsum.photos/200/200" />
-          <p>PHP</p>
-        </div></swiper-slide
-      >
-      <swiper-slide
-        ><div class="card">
-          <img src="https://picsum.photos/200/200" />
-          <p>PHP</p>
-        </div></swiper-slide
-      >
-      <swiper-slide
-        ><div class="card">
-          <img src="https://picsum.photos/200/200" />
-          <p>PHP</p>
-        </div></swiper-slide
-      >
-      <swiper-slide
-        ><div class="card">
-          <img src="https://picsum.photos/200/200" />
-          <p>PHP</p>
-        </div></swiper-slide
-      >
-      <swiper-slide
-        ><div class="card">
-          <img src="https://picsum.photos/200/200" />
-          <p>PHP</p>
-        </div></swiper-slide
-      >
-      <swiper-slide
-        ><div class="card">
-          <img src="https://picsum.photos/200/200" />
-          <p>PHP</p>
-        </div></swiper-slide
-      >
-      <swiper-slide
-        ><div class="card">
-          <img src="https://picsum.photos/200/200" />
-          <p>PHP</p>
-        </div></swiper-slide
-      >
-      <swiper-slide
-        ><div class="card">
-          <img src="https://picsum.photos/200/200" />
-          <p>PHP</p>
-        </div></swiper-slide
-      >
-      <swiper-slide
-        ><div class="card">
-          <img src="https://picsum.photos/200/200" />
-          <p>PHP</p>
-        </div></swiper-slide
-      >
-      <swiper-slide
-        ><div class="card">
-          <img src="https://picsum.photos/200/200" />
-          <p>PHP</p>
-        </div></swiper-slide
-      >
-      <swiper-slide
-        ><div class="card">
-          <img src="https://picsum.photos/200/200" />
-          <p>PHP</p>
-        </div></swiper-slide
-      >
-      <swiper-slide
-        ><div class="card">
-          <img src="https://picsum.photos/200/200" />
-          <p>PHP</p>
-        </div></swiper-slide
-      >
-      <swiper-slide
-        ><div class="card">
-          <img src="https://picsum.photos/200/200" />
-          <p>PHP</p>
-        </div></swiper-slide
-      >
-      <swiper-slide
-        ><div class="card">
-          <img src="https://picsum.photos/200/200" />
-          <p>PHP</p>
-        </div></swiper-slide
-      >
-      <swiper-slide
-        ><div class="card">
-          <img src="https://picsum.photos/200/200" />
-          <p>PHP</p>
-        </div></swiper-slide
-      >
-      <swiper-slide
-        ><div class="card">
-          <img src="https://picsum.photos/200/200" />
-          <p>PHP</p>
-        </div></swiper-slide
-      >
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="card">
+          <img src="~/assets/images/csharp.png" />
+          <p>C#</p>
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="card">
+          <img src="~/assets/images/css3.png" />
+          <p>CSS 3</p>
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="card">
+          <img src="~/assets/images/dart.png" />
+          <p>Dart</p>
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="card">
+          <img src="~/assets/images/docker.png" />
+          <p>Docker</p>
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="card">
+          <img src="~/assets/images/flutter.png" />
+          <p>Flutter</p>
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="card">
+          <img src="~/assets/images/html5.png" />
+          <p>HTML 5</p>
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="card">
+          <img src="~/assets/images/javascript.png" />
+          <p>Javascript</p>
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="card">
+          <img src="~/assets/images/laracel.png" />
+          <p>Laravel</p>
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="card">
+          <img src="~/assets/images/nodejs.jpg" />
+          <p>Nodejs</p>
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="card">
+          <img src="~/assets/images/nuxtjs.png" />
+          <p>Nuxt js</p>
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="card">
+          <img src="~/assets/images/react.png" />
+          <p>Reactjs</p>
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="card">
+          <img src="~/assets/images/vuejs.png" />
+          <p>Vue js</p>
+        </div>
+      </swiper-slide>
     </swiper>
   </div>
 </template>
@@ -210,7 +146,11 @@ const onSlideChange = () => {
 <style lang="scss" scoped>
 .custom-swiper {
   padding: 20px;
+  @media (max-width: 443px) {
+    margin-left: 40px;
+  }
 }
+
 .card {
   width: 150px;
   height: 150px;
@@ -222,6 +162,7 @@ const onSlideChange = () => {
   align-items: center;
   padding: 30px;
   gap: 10px;
+  background-color: #fff;
 
   & img {
     max-width: 50px;

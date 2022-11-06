@@ -41,6 +41,12 @@
         <div class="about-me">
           <HomeAboutMe />
         </div>
+        <div class="client-testimonial">
+          <HomeClient />
+        </div>
+        <div class="client-testimonial">
+          <HomeLatestNews />
+        </div>
       </template>
     </NuxtLayout>
   </div>
@@ -218,5 +224,10 @@ import { EnvelopeIcon } from "@heroicons/vue/24/solid";
 
 .my-work {
   margin-top: 50px;
+}
+
+.client-testimonial {
+  margin-top: 140px;
+  margin-bottom: 50px;
 }
 </style>

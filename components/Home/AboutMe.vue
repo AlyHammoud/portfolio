@@ -89,6 +89,7 @@
           font-size: 2.5em;
         }
       }
+
       .brief {
         font-size: 1.1em;
         letter-spacing: 1.1px;
@@ -116,6 +117,7 @@
       display: flex;
       flex-direction: column;
       gap: 40px;
+
       @media (max-width: 700px) {
         width: 100%;
       }
@@ -167,7 +169,7 @@
       grid-column: 1;
     }
 
-    & * > img {
+    & *>img {
       width: 80px;
     }
   }
