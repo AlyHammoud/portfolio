@@ -6,6 +6,7 @@ export default defineNuxtConfig({
         styleLang: 'css',
         modules: '*',
     },
+    plugins: [{ src: "@/plugins/aos", ssr: false, mode: "client" }],
 
     vite: {
         css: {

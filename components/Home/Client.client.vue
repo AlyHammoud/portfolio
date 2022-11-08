@@ -7,11 +7,12 @@
       <swiper
         :slides-per-view="1"
         :autoplay="{
-          delay: 1500,
+          delay: 2000,
           disableOnInteraction: false,
         }"
         :navigation="true"
         :pagination="{ clickable: true }"
+        :free-mode="true"
         :modules="modules"
         class="custom-swiper"
       >
@@ -63,14 +64,14 @@
 // Import Swiper Vue.js components
 
 import { Swiper, SwiperSlide } from "swiper/vue";
-import { Autoplay, Pagination, Navigation } from "swiper";
+import { Autoplay, Pagination, Navigation, FreeMode } from "swiper";
 // import Swiper from "swiper/bundle";
 
 // Import Swiper styles
 import "swiper/css";
 // import "swiper/swiper-bundle.css";
 
-const modules = ref([Autoplay, Pagination, Navigation]);
+const modules = ref([Autoplay, Pagination, Navigation, FreeMode]);
 
 const onSwiper = (swiper) => {
   console.log(swiper);
@@ -96,6 +97,7 @@ const onSlideChange = () => {
     @media screen and (max-width: 740px) {
       font-size: 1.1em;
     }
+
     @media screen and (max-width: 500px) {
       font-size: 0.8em;
       font-weight: 900;
@@ -133,10 +135,12 @@ const onSlideChange = () => {
           text-align: justify;
           word-break: break-all;
         }
+
         .contact {
           display: grid;
           place-items: center;
           margin-top: 30px;
+
           &-image {
             width: 40px;
             height: 40px;

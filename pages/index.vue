@@ -32,20 +32,23 @@
       </template>
 
       <template #main-layout-main>
-        <div class="expertise">
+        <div class="expertise" data-aos="fade-right">
           <HomeExpertise />
         </div>
-        <div class="my-work">
+        <div class="my-work" data-aos="fade-up-right">
           <HomeWork />
         </div>
-        <div class="about-me">
+        <div class="about-me" data-aos="flip-left">
           <HomeAboutMe />
         </div>
-        <div class="client-testimonial">
+        <div class="client-testimonial" data-aos="zoom-in">
           <HomeClient />
         </div>
-        <div class="client-testimonial">
+        <div class="LatestNews" data-aos="zoom-in" data-aos-delay="300">
           <HomeLatestNews />
+        </div>
+        <div class="home-footer">
+          <Footer />
         </div>
       </template>
     </NuxtLayout>
@@ -229,5 +232,11 @@ import { EnvelopeIcon } from "@heroicons/vue/24/solid";
 .client-testimonial {
   margin-top: 140px;
   margin-bottom: 50px;
+}
+
+.home-footer {
+  width: 100%;
+  margin-top: 55px;
+  margin-bottom: 0;
 }
 </style>

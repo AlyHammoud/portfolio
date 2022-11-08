@@ -25,4 +25,8 @@
 
 <style lang="scss">
 //
+
+main {
+  overflow-x: hidden;
+}
 </style>
