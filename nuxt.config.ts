@@ -6,7 +6,14 @@ export default defineNuxtConfig({
         styleLang: 'css',
         modules: '*',
     },
-    plugins: [{ src: "@/plugins/aos", ssr: false, mode: "client" }],
+
+    css: [
+        '@fortawesome/fontawesome-svg-core/styles.css'
+    ],
+
+    plugins: [
+        { src: "@/plugins/aos", ssr: false, mode: "client" }
+    ],
 
     vite: {
         css: {

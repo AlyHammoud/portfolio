@@ -13,7 +13,11 @@
     "sass-loader": "^13.1.0"
   },
   "dependencies": {
-    "@heroicons/vue": "^2.0.12",
+    "@fortawesome/fontawesome-svg-core": "^6.2.0",
+    "@fortawesome/free-brands-svg-icons": "^6.2.0",
+    "@fortawesome/free-regular-svg-icons": "^6.2.0",
+    "@fortawesome/free-solid-svg-icons": "^6.2.0",
+    "@fortawesome/vue-fontawesome": "^3.0.2",
     "aos": "^2.3.4",
     "nuxt-swiper": "^0.1.6"
   }

@@ -26,6 +26,13 @@
               <p>Drop your Messsage</p>
               <p>example@gmail.com</p>
               <!-- <EnvelopeIcon class="envelope" /> -->
+              <!-- <font-awesome-icon :icon="['fas', 'envelope']" class="envelope" /> -->
+              <ClientOnly>
+                <font-awesome-icon
+                  :icon="['fas', 'envelope']"
+                  class="envelope"
+                />
+              </ClientOnly>
             </div>
           </div>
         </div>
@@ -55,9 +62,7 @@
   </div>
 </template>
 
-<script setup lang="ts">
-// import { EnvelopeIcon } from "@heroicons/vue/24/solid";
-</script>
+<script setup lang="ts"></script>
 
 <style lang="scss">
 .landing-page-hero {
@@ -204,12 +209,13 @@
 
       .envelope {
         position: absolute;
-        width: 35px;
+        width: 20px;
+        height: 20px;
         right: -50px;
         top: 50%;
         border: 1px solid white;
         border-radius: 50%;
-        padding: 4px;
+        padding: 8px;
         transform: translateY(-50%);
 
         @media screen and (max-width: 610px) {
