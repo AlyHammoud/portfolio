@@ -25,7 +25,7 @@
             <div class="info-email">
               <p>Drop your Messsage</p>
               <p>example@gmail.com</p>
-              <EnvelopeIcon class="envelope" />
+              <!-- <EnvelopeIcon class="envelope" /> -->
             </div>
           </div>
         </div>
@@ -56,7 +56,7 @@
 </template>
 
 <script setup lang="ts">
-import { EnvelopeIcon } from "@heroicons/vue/24/solid";
+// import { EnvelopeIcon } from "@heroicons/vue/24/solid";
 </script>
 
 <style lang="scss">
