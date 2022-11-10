@@ -6,10 +6,10 @@
         <div class="nav-contents">
           <ul>
             <li>
-              <NuxtLink to="#">Home</NuxtLink>
+              <NuxtLink to="/">Home</NuxtLink>
             </li>
             <li>
-              <NuxtLink to="#">Work</NuxtLink>
+              <NuxtLink to="/Work">Work</NuxtLink>
             </li>
             <li>
               <NuxtLink to="#">Service</NuxtLink>
