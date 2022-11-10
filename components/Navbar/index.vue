@@ -9,7 +9,7 @@
               <NuxtLink to="/">Home</NuxtLink>
             </li>
             <li>
-              <NuxtLink to="/Work">Work</NuxtLink>
+              <NuxtLink to="/work">Work</NuxtLink>
             </li>
             <li>
               <NuxtLink to="#">Service</NuxtLink>

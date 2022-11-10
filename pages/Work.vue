@@ -29,6 +29,7 @@
 
     & > * {
       width: 100%;
+      // max-width: 1500px;
       padding: 0;
       margin-top: 50px;
       gap: 20px;
@@ -49,6 +50,7 @@
     align-items: center;
     overflow: hidden;
     position: relative;
+    margin-bottom: 50px;
 
     &::before {
       content: "";
@@ -59,7 +61,9 @@
       height: 40%;
       background-color: rgba(255, 131, 82, 0.5);
       rotate: -2deg 0;
+      -webkit-transform: rotateX(-5deg);
       transform: translateY(-30%);
+      -webkit-transform: translateY(-30%);
     }
 
     &::after {
@@ -71,7 +75,9 @@
       height: 40%;
       background-color: rgba(255, 131, 82, 0.5);
       rotate: 2deg 0;
+      -webkit-transform: rotateX(5deg);
       transform: translateY(30%);
+      -webkit-transform: translateY(30%);
     }
 
     p {
