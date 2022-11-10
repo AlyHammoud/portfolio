@@ -60,10 +60,8 @@
       width: 100%;
       height: 40%;
       background-color: rgba(255, 131, 82, 0.5);
-      rotate: -2deg 0;
-      -webkit-transform: rotateX(-5deg);
-      transform: translateY(-30%);
-      -webkit-transform: translateY(-30%);
+      -webkit-transform: rotate(-12deg) translateY(-30%);
+      transform: rotate(-2deg) translateY(-30%);
     }
 
     &::after {
@@ -74,10 +72,8 @@
       width: 100%;
       height: 40%;
       background-color: rgba(255, 131, 82, 0.5);
-      rotate: 2deg 0;
-      -webkit-transform: rotateX(5deg);
-      transform: translateY(30%);
-      -webkit-transform: translateY(30%);
+      -webkit-transform: rotate(2deg) translateY(30%);
+      transform: rotate(2deg) translateY(30%);
     }
 
     p {

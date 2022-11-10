@@ -64,6 +64,8 @@ onMounted(() => {
     }
   });
 });
+
+onUnmounted(() => (document.querySelector("body").style.overflow = "auto"));
 </script>
 
 <style lang="scss">
